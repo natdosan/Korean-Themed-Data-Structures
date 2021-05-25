@@ -91,7 +91,7 @@ int main()
   std::cout << "Enter your ultimate bias: ";
   std::string yourBias;
   std::cin >> yourBias;
-  std::cout << "Bias: " << yourBias;
+  // std::cout << "Bias: " << yourBias;
   Gen3 h1(yourBias);
   std::cout << "Bias: " << h1.bias() << ", Wrecker: " << h1.wrecker() << " <3" << std::endl;
   // Access base class Gen2's version
