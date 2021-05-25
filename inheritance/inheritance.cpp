@@ -95,9 +95,9 @@ int main()
   Gen3 h1(yourBias);
   std::cout << "Bias: " << h1.bias() << ", Wrecker: " << h1.wrecker() << " <3" << std::endl;
   // Access base class Gen2's version
-  std::cout << "Bias: " << h1.Gen2::bias() << ", Wrecker: " << h1.wrecker() << " <3" << std::endl;
+  std::cout << "2nd Bias: " << h1.Gen2::bias() << ", Wrecker: " << h1.wrecker() << " <3" << std::endl;
   // And base class Gen1's version of diet()
-  std::cout << "Bias: " << h1.Gen1::bias() << ", Wrecker: " << h1.wrecker() << " <3" << std::endl;
+  std::cout << "3rd Bias: " << h1.Gen1::bias() << ", Wrecker: " << h1.wrecker() << " <3" << std::endl;
 
   // bias is set by Gen4's constructor
   Gen4 h2(yourBias);
