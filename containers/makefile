@@ -1,9 +1,12 @@
-all: set map
+all: set map map2
 
 set: set.cpp
 	g++ -o $@ $<
 
 map: map.cpp
+	g++ -o $@ $<
+
+map2: map2.cpp
 	g++ -o $@ $<
 
 clean:
